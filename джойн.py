@@ -1,0 +1,8 @@
+a=input()
+a=a.upper()
+b=a.split()
+b1=list(b[0])
+b2=list(b[1])
+b1='-'.join(b1)
+b2='-'.join(b2)
+print(b1,b2)
